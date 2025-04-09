@@ -42,6 +42,34 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{
+		path: './dang-ky',
+		name: 'Don dang ky',
+		icon: 'FormOutlined',
+		component: './DangKy'
+	},
+	{
+		path: '/admin',
+		name: 'Admin',
+		icon: 'SolutionOutlined',
+		routes: [
+			{
+				path: '/admin/phe-duyet',
+				name: 'Phe duyet',
+				component: './Admin/PheDuyet'
+			},
+			{
+				path: '/admin/quan-li-user',
+				name: 'Quan li thanh vien',
+				component: './Admin/QuanLi'
+			},
+			{
+				path: '/admin/bao-cao',
+				name: 'Bao cao va thong ke',
+				component: './Admin/BaoCao'
+			},
+		]
+	},
 
 	// DANH MUC HE THONG
 	// {
