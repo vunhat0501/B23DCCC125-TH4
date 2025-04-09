@@ -1,0 +1,25 @@
+/* Mobile (max-width: 576px) */
+@media (max-width: 576px) {
+    h1 {
+      font-size: 18px;
+    }
+  
+    .ant-btn {
+      font-size: 14px;
+    }
+  
+    .ant-table {
+      font-size: 12px;
+    }
+  }
+  
+  /* Tablet (max-width: 768px) */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 20px;
+    }
+  
+    .ant-btn {
+      font-size: 16px;
+    }
+  }
